@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "*": ["src/*"]
+    },
+    "checkJs": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "strict": false,
+    "types": []
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "exclude": ["node_modules", "build", "dist"]
+}

@@ -1,0 +1,14 @@
+/* Hapus horizontal scrollbar PerfectScrollbar */
+.ps__rail-x,
+.ps__thumb-x {
+  display: none !important;
+  height: 0 !important;
+  opacity: 0 !important;
+}
+
+/* Hapus horizontal scrollbar native browser */
+html,
+body {
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
